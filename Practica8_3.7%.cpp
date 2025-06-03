@@ -1,3 +1,5 @@
+//Selena Yaretzi Hernández López
+//Calcula la tasa de interes por meses
 #include <iostream>
 #include <cmath>
 #include <iomanip>
@@ -14,10 +16,10 @@ int main() {
     double valor_futuro = deposito_mensual * ((pow(1 + tasa_interes, meses) - 1) / tasa_interes); 
     
     cout << fixed << setprecision(2);
-    cout << "Calculadora de Ahorro a 15 a�os con Interes Compuesto\n";
+    cout << "Calculadora de Ahorro a 15 años con Interes Compuesto\n";
     cout << "Deposito mensual: $" << deposito_mensual << endl;
     cout << "Tasa de interes mensual: " << tasa_interes * 100 << "%\n"; 
-    cout << "Periodo: " << anios << " a�os (" << meses << " meses)\n";
+    cout << "Periodo: " << anios << " años (" << meses << " meses)\n";
     cout << "Monto acumulado: $" << valor_futuro << endl;
     
     return 0;
