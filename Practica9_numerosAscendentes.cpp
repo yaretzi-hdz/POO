@@ -1,3 +1,5 @@
+//Selena Yaretzi Hernández López
+//Ordena los numeros de manera ascendentes
 #include <iostream>
 #include <vector>
 #include <algorithm>
