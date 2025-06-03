@@ -1,6 +1,8 @@
+//Selena Yaretzi Hernández López
+//Calcula el porcentaje que se obtiene mes por mes con la formula matematica directa
 #include <iostream>
-#include <cmath> // Para la funci�n pow()
-#include <iomanip> // Para formatear la salida
+#include <cmath> 
+#include <iomanip>
 
 using namespace std;
 
@@ -12,14 +14,14 @@ int main() {
     
     double valor_futuro = 0.0;
     
-    // M�todo 1: Usando la f�rmula matem�tica directa
+    // Método 1: Usando la fórmula matemática directa
     valor_futuro = deposito_mensual * ( (pow(1 + tasa_interes_mensual, meses) - 1) / tasa_interes_mensual );
     
     cout << fixed << setprecision(2); // Formato para mostrar 2 decimales
     cout << "Metodo 1 (Formula directa):" << endl;
-    cout << "Despues de " << anios << " a�os, tendr�s ahorrado: $" << valor_futuro << endl;
+    cout << "Despues de " << anios << " años, tendrás ahorrado: $" << valor_futuro << endl;
     
-    // M�todo 2: Calculando mes por mes (simulaci�n)
+    // Método 2: Calculando mes por mes (simulación)
     double ahorro = 0.0;
     for (int mes = 1; mes <= meses; ++mes) {
         ahorro += deposito_mensual;
@@ -27,7 +29,7 @@ int main() {
     }
     
     cout << "\nMetodo 2 (Simulacion mes a mes):" << endl;
-    cout << "Despues de " << anios << " a�os, tendr�s ahorrado: $" << ahorro << endl;
+    cout << "Despues de " << anios << " años, tendrás ahorrado: $" << ahorro << endl;
     
     return 0;
 }
