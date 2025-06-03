@@ -1,3 +1,5 @@
+//Selena Yaretzi Hernández López
+//Calcula el radio sacando pi
 #include <iostream>
 #define PI 3.1416
 
@@ -7,7 +9,7 @@ int main(){
 	char opcion;
 	cout << "Ingresa el radio del circulo: ";
 	cin >> radio;
-	cout << "Escribe 'a' para calcular el area o �p� para calcular el perimetro: ";
+	cout << "Escribe 'a' para calcular el area o ´p´ para calcular el perimetro: ";
 	cin >> opcion;
 	if(opcion == 'a' || opcion == 'A')
 	{
