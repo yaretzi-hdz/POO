@@ -1,3 +1,5 @@
+//Selena Yaretzi Hernández López 
+//Manda a llamar un archivo txt y lo lee
 #include <stdio.h>
 #include <fstream>
 #include <string>
