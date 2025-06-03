@@ -1,3 +1,5 @@
+//Selena Yaretzi Hernández López
+//Hace un ciclo tipo cadena 
 #include <iostream>
 #include <string>
 
@@ -48,7 +50,7 @@ int main() {
         char ch = input[i];
         State next = transition(current, ch);
         if (next == -1) {
-            cout << "Error: No hay transici�n desde " << getStateName(current)
+            cout << "Error: No hay transición desde " << getStateName(current)
                  << " con entrada '" << ch << "'" << endl;
             cout << "Cadena NO aceptada." << endl;
             return 0;
