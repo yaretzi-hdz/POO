@@ -1,3 +1,5 @@
+//Selena Yaretzi Hernández Lópex
+//Calcula 3 traingulos dintintos en base a una sola formula
 #include <iostream>
 using namespace std;
 
@@ -13,7 +15,7 @@ int main() {
 
     if (lado1 + lado2 > lado3 && lado1 + lado3 > lado2 && lado2 + lado3 > lado1) {
         if (lado1 == lado2 && lado2 == lado3) {
-            cout << "El tri�ngulo es equilatero." << endl;
+            cout << "El triángulo es equilatero." << endl;
         } else if (lado1 == lado2 || lado1 == lado3 || lado2 == lado3) {
             cout << "El triangulo es isosceles." << endl;
         } else {
