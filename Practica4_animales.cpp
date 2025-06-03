@@ -1,20 +1,22 @@
+//Selena Yaretzi HernÃ¡ndez LÃ³pez
+//Clasifica los animales con sus respectivas caracteristicas
 #include <iostream>
 #include <string>
 
 using namespace std;
 
-class Animal {  // Cambiado a mayúscula para coincidir con el constructor
+class Animal {  
 protected:
     string color;
     bool tieneCola;
-    bool tiene4Patas;  // Nombre consistente con 'P' mayúscula
+    bool tiene4Patas;  
     string tipoAlimentacion;
     
 public:
     Animal(string c, bool cola, bool patas, string alimentacion) {
         color = c;
         tieneCola = cola;
-        tiene4Patas = patas;  // Usando el mismo nombre aquí
+        tiene4Patas = patas;  
         tipoAlimentacion = alimentacion;
     }
 
@@ -24,7 +26,7 @@ public:
     void mostrarDatos() {
         cout << "color: " << color << endl;
         cout << "Tiene cola: " << (tieneCola ? "Si" : "No") << endl;
-        cout << "Tiene 4 patas: " << (tiene4Patas ? "Si" : "No") << endl;  // Corregido aquí
+        cout << "Tiene 4 patas: " << (tiene4Patas ? "Si" : "No") << endl;  // Corregido aquÃ­
         cout << "Tipo de alimentacion: " << tipoAlimentacion << endl; 
     }
 };
@@ -48,7 +50,7 @@ public:
 };
 
 int main() {
-    Mamifero perro("marrón", true, "omnivoro");
+    Mamifero perro("marrÃ³n", true, "omnivoro");
     Insecto abeja("amarillo y negro", true, "herbivoro");
     Pajaro loro("verde", true, "herbivoro");
     
