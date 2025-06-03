@@ -1,9 +1,11 @@
+//Selena Yaretzi Hernández López
+//Calcula el radio con clase
 #include <iostream>
 #define PI 3.1416
 
 using namespace std;
 
-//Definici�n de la clase Circulo
+//Definición de la clase Circulo
 class Circulo{
 	private:
 		double radio;
@@ -23,7 +25,7 @@ class Circulo{
 			}
 };
 
-//Funci�n principal
+//Función principal
 int main(){
 	double radio;
 	char opcion;
@@ -41,7 +43,7 @@ int main(){
 		cout << "El area del circulo es: " << miCirculo.calcularArea() << endl;
 	}
 	else{
-		cout << "Opcion no v�lida." << endl;
+		cout << "Opcion no válida." << endl;
 	}
 	return 0;
 }
